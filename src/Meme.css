@@ -1,0 +1,65 @@
+.memeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 477px;
+  margin: auto;
+}
+
+.form {
+  padding: 35px 0px 15px;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.form > input {
+  font-family: "Inter", sans-serif;
+  text-indent: 10px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.form > button {
+  font-family: "Inter", sans-serif;
+  grid-column: 1/ -1;
+  color: white;
+  background: linear-gradient(45deg, #672280, #a626d3);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.memeImageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  -webkit-text-stroke: 2px black;
+  font-size: 2em;
+  color: white;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+
+  letter-spacing: 1px;
+}
+
+.memeImage {
+  max-width: 477px;
+}
+
+.memeTextTop {
+  position: absolute;
+  top: 0;
+  margin: 5px;
+}
+
+.memeTextBot {
+  position: absolute;
+  bottom: 0;
+  margin: 5px;
+}

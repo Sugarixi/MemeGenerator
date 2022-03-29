@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.headerContainer {
+  background: linear-gradient(45deg, #672280, #a626d3);
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 10px 40px;
+}
+
+.headerContainer > img {
+  width: 31.31px;
+}
+
+.headerContainer > h1 {
+  margin-right: auto;
+  font-size: 20.75px;
+  padding-left: 10px;
+}
+
+.headerContainer > p {
+  font-size: 12px;
+}
